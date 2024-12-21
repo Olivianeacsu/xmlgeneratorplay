@@ -1,0 +1,30 @@
+[
+  {
+    "amount": 100.50,
+    "accountNumber": "1234567899",
+    "type": "CREDIT",
+    "date": "2024-10-20",
+    "currency": "SEK"
+  },
+  {
+    "amount": 90.50,
+    "accountNumber": "1234567890",
+    "type": "DEBIT",
+    "date": "2024-10-18",
+    "currency": "SEK"
+  },
+  {
+    "amount": 30.50,
+    "accountNumber": "1234567890",
+    "type": "DEBIT",
+    "date": "2024-10-20",
+    "currency": "SEK"
+  },
+  {
+    "amount": 22.50,
+    "accountNumber": "1234567899",
+    "type": "CREDIT",
+    "date": "2024-10-18",
+    "currency": "SEK"
+  }
+]

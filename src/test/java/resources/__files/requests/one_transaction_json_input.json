@@ -1,0 +1,9 @@
+[
+  {
+    "amount": 22,
+    "accountNumber": "44555",
+    "type": "DEBIT",
+    "date": "2024-10-21",
+    "currency": "SEK"
+  }
+]
