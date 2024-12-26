@@ -1,7 +1,10 @@
 package org.example.xmlgeneratorplay.service;
 
 import jakarta.xml.bind.JAXBContext;
+import org.example.xmlgeneratorplay.exception.XMLValidationException;
+import org.example.xmlgeneratorplay.types.Currency;
 import org.example.xmlgeneratorplay.types.TransactionDTO;
+import org.example.xmlgeneratorplay.types.TransactionType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,6 +20,8 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static org.example.xmlgeneratorplay.service.XMLValidator.IO_EXCEPTION_MESSAGE;
+import static org.example.xmlgeneratorplay.service.XMLValidator.PARSING_EXCEPTION_MESSAGE;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;

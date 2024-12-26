@@ -1,8 +1,8 @@
 package org.example.xmlgeneratorplay.service;
 
+import org.example.xmlgeneratorplay.exception.SchemaFileNotFoundException;
+import org.example.xmlgeneratorplay.exception.XMLValidationException;
 import org.junit.jupiter.api.Test;
-import se.seb.embedded.coding_assignment.exception.SchemaFileNotFoundException;
-import se.seb.embedded.coding_assignment.exception.XMLValidationException;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
